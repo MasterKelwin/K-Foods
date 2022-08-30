@@ -2,7 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.button `
-    background-color: red;
+    width: auto;
+    height: 1.8rem;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    font-weight: bold;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
 `;
 
 interface Props {
@@ -14,5 +22,3 @@ export default function Button({ children }: Props) {
         <Wrapper> {children} </Wrapper>
     )
 }
-
-//test 2
