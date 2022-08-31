@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.button `
-    font-family: 'Source Sans Pro', sans-serif;
     width: auto;
     height: 1.8rem;
     border-radius: 8px;
