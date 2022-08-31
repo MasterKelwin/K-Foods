@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper } from 'components/Button/style';
+import Wrapper from './style';
 // import { ReactComponent as Logo } from 'assets/mascotinho.svg';
 
 interface Props {

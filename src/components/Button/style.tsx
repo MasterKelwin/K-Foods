@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.button `
+const Wrapper = styled.button`
     width: auto;
     height: 1.8rem;
     border-radius: 8px;
@@ -13,3 +13,5 @@ export const Wrapper = styled.button `
         cursor: pointer;
     }
 `;
+
+export default Wrapper
