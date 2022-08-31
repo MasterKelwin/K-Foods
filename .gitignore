@@ -6,6 +6,7 @@
 /private
 .pnp.js
 styleCreation.css
+generate-react-cli.json
 
 # testing
 /coverage
