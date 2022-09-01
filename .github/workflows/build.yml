@@ -16,6 +16,7 @@ jobs:
       - name: Build web-app
         run: |
           . scl_source enable devtoolset-7 || true
+          . scl_source enable llvm-toolset-6.0 || true
           npm ci
           npm run build
       - name: Deploy to gh-pages
