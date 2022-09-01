@@ -18,9 +18,6 @@ jobs:
           . scl_source enable devtoolset-7 || true
           . scl_source enable llvm-toolset-6.0 || true
           . /etc/profile.d/modules.sh || true
-          module load mpi
-          . $INSTALL_DIR/bin/thisbdm.sh
-          xvfb-run -d -s "-screen 0 2560x1440x24" make run-demos
           npm ci
           npm run build
       - name: Deploy to gh-pages
