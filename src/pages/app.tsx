@@ -1,6 +1,7 @@
 import React from 'react';
-import { ImgBanner } from './style';
+import { ImgBanner, Main } from './style';
 import  Header  from '../components/Header/Header';
+import Menu from '../components/Menu/Menu';
 
 
 
@@ -11,8 +12,16 @@ export default function App() {
             <ImgBanner>
                 <p>Dia da Pizza são todos os dias!</p>
             </ImgBanner>
+            <Main>
+                <Menu />
+            </Main>
         </>
     )
 }
 
-//Error: Process completed with exit code 1.
+
+
+
+
+//estado de busca
+//busca componente
