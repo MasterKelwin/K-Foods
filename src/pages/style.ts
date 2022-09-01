@@ -8,9 +8,34 @@ export const ImgBanner = styled.div `
     background-position: 0% 90%;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.2);
+    transition: .2s ease-in-out;
+
+    &:hover {
+        filter: grayscale(0);
+    }
+
+    
+    p {
+        text-shadow: 5px 5px 5px #000000cc;
+    }
 
     @media (max-width: 500px) {
-        height: 188px;
-        background-position: 0% 60%;
+        height: 128px;
+        background-position: 0% 50%;
+        font-size: 2rem;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        p{
+            text-shadow: 3px 3px 5px #000000;
+        }
     }
+
 `

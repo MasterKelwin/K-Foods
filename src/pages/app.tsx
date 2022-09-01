@@ -8,7 +8,9 @@ export default function App() {
     return(
         <>
             <Header />
-            <ImgBanner />
+            <ImgBanner>
+                <p>Dia da Pizza são todos os dias!</p>
+            </ImgBanner>
         </>
     )
 }
