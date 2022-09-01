@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Banner from 'assets/banner.jpg';
 
-export const ImgBanner = styled.div `
+export const ImgBanner = styled.div`
     width: 100%;
     height: 228px;
     background-image: url(${Banner});
@@ -37,5 +37,9 @@ export const ImgBanner = styled.div `
             text-shadow: 3px 3px 5px #000000;
         }
     }
+`
 
+export const Main = styled.main`
+    width:80%;
+    margin: 0 auto;
 `
