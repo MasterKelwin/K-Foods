@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function Menu() {
-  const [search, setSearch] = useState<String>("");
+  const [search, setSearch] = useState<string>("");
   return(
       <Wrapper>
         <div>
