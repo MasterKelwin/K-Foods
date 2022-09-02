@@ -4,7 +4,7 @@ import { CgSearch } from 'react-icons/cg';
 
 interface Props {
     search: string,
-    setSearch: React.Dispatch<React.SetStateAction<String>>
+    setSearch: React.Dispatch<React.SetStateAction<string>>
 }
 
 export default function Finder({search, setSearch} : Props) {
