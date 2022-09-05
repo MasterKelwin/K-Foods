@@ -3,10 +3,6 @@ import { Wrapper } from './style';
 import Finder from './Finder/Finder';
 import Filters from 'components/Filters/filters';
 
-interface Props {
-  
-}
-
 export default function Menu() {
   const [search, setSearch] = useState<string>("");
   return(
