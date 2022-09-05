@@ -1,15 +1,19 @@
 import { Wrapper } from './style';
-import filter from './filters.json';
+import filters from './filters.json';
 import Button from '../Button/button';
 
-type IOption = typeof filter[0];
+type IOption = typeof filters[0];
 
 export default function Filters() {
     function selectOption(option: IOption) {}
     return (
         <Wrapper>
-            {filter.map((option) => (
-                <Button>{option.label}</Button>
+            {filters.map(option => (
+                <li key={option.id} >
+                    <Button>
+                        {option.label}
+                    </Button>
+                </li>
             ))}
         </Wrapper>
     )
