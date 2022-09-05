@@ -1,18 +1,18 @@
 [
     {
-      "label": "Massas",
+      "label": "Da Kasa",
       "id": 1
     },
     {
-      "label": "Carnes",
+      "label": "Kombos",
       "id": 2
     },
     {
-      "label": "Combos",
+      "label": "Doces",
       "id": 3
     },
     {
-      "label": "Veganos",
+      "label": "Vegetarianas",
       "id": 4
     }
 ]
