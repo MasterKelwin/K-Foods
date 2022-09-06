@@ -17,6 +17,9 @@ export const Wrapper = styled.div `
         outline: none;
         color: #fff;
         font-weight: regular;
+        &::placeholder {
+            color: #ebebeb;
+        }
     }
 
     @media (max-width: 500px) {
