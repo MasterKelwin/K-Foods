@@ -1,18 +1,18 @@
 [
     {
       "label": "Da Kasa",
-      "id": 1
+      "id": "dakasa"
     },
     {
       "label": "Kombos",
-      "id": 2
+      "id": "kombos"
     },
     {
       "label": "Doces",
-      "id": 3
+      "id": "doces"
     },
     {
       "label": "Vegetarianas",
-      "id": 4
+      "id": "vegetarianas"
     }
 ]
