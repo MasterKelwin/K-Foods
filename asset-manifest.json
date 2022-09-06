@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.2b5e8558.css",
-    "main.js": "./static/js/main.cc20896a.js",
+    "main.js": "./static/js/main.0a0ba759.js",
     "static/media/banner.jpg": "./static/media/banner.b2d65b9ba5777f50ef36.jpg",
+    "static/media/vegetariana.jpg": "./static/media/vegetariana.9dbe8d907739b7aa269c.jpg",
     "static/media/logo.png": "./static/media/logo.876bba261fc7e16d7193.png",
     "index.html": "./index.html",
     "main.2b5e8558.css.map": "./static/css/main.2b5e8558.css.map",
-    "main.cc20896a.js.map": "./static/js/main.cc20896a.js.map"
+    "main.0a0ba759.js.map": "./static/js/main.0a0ba759.js.map"
   },
   "entrypoints": [
     "static/css/main.2b5e8558.css",
-    "static/js/main.cc20896a.js"
+    "static/js/main.0a0ba759.js"
   ]
 }
