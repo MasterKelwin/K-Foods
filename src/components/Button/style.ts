@@ -4,7 +4,7 @@ export const Wrapper = styled.button `
     width: auto;
     height: 1.8rem;
     border-radius: 8px;
-    background-color: ${props => props ? "red" : "white"};
+    background-color: ${props => props.onClick ? "red" : "white"};
     color: #ebebeb;
     font-weight: bold;
     border: none;
