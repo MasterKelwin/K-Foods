@@ -1,10 +1,9 @@
 import { Wrapper } from './style'
-import Card from './Card/Card'
 
-export default function Cards() {
+export default function Card() {
     return (
         <Wrapper>
-            <Card />
+            <h1>a</h1>
         </Wrapper>
     )
 }

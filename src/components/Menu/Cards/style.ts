@@ -5,6 +5,5 @@ export const Wrapper = styled.ul`
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: collumn;
-
+    flex-direction: column;
 `
