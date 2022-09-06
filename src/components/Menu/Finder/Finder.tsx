@@ -10,7 +10,7 @@ interface Props {
 export default function Finder({search, setSearch} : Props) {
   return(
       <Wrapper>
-        <input value={search} onChange={evento => setSearch(evento.target.value)} />
+        <input value={search} onChange={evento => setSearch(evento.target.value)} placeholder="Buscar" />
         <CgSearch  size={24} color="#fff" />
       </Wrapper>
   )
