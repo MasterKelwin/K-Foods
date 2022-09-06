@@ -13,23 +13,29 @@ export default function Filters({ filter, setFilter }: Props) {
     function selectOption(option: IOption) {
         setFilter(option.id);
     }
+
+    function cleanOption() {
+        setFilter('');
+    }
+    
     return (
         <Wrapper>
             {filters.map(option => {
                 if(option.id !== filter) {
                 return <li key={option.id} >
-                    <Button onClick={() => selectOption(option)}>
+                    <Button onClick={() => selectOption(option)} theme={false}>
                         {option.label}
                     </Button>
                 </li>
                 }
                 if(option.id === filter) {
                     return <li key={option.id} >
-                    <Button onClick={() => selectOption(option)} active={true}>
+                    <Button onClick={() => cleanOption()} theme={true}>
                         {option.label}
                     </Button>
                 </li>
                 }
+                return undefined;
             })}
         </Wrapper>
     )
