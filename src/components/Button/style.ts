@@ -23,4 +23,5 @@ export const Wrapper = styled.button `
     &:hover{
         cursor: pointer;
     }
+
 `;
