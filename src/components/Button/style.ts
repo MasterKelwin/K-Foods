@@ -14,7 +14,6 @@ export const Wrapper = styled.button `
     border-radius: 8px;
     background-color: ${props => clickVerifier(props.theme)};
     color: #ebebeb;
-    font-weight: bold;
     border: none;
     padding: 0 1rem;
     text-transform: uppercase;
@@ -23,4 +22,5 @@ export const Wrapper = styled.button `
     &:hover{
         cursor: pointer;
     }
+
 `;
