@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Wrapper } from './style';
 import Finder from './Finder/Finder';
+
 import Filters from 'components/Menu/Filters/filters';
 
 export default function Menu() {

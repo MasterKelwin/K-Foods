@@ -24,5 +24,6 @@ export const Wrapper = styled.div `
 
     @media (max-width: 500px) {
         max-width: none;
+        max-heigth: 3rem;
     }
 `;

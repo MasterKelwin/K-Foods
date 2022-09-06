@@ -15,10 +15,11 @@ export const ImgBanner = styled.div`
     justify-content: center;
     align-items: center;
     filter: grayscale(0.2);
-    transition: .2s ease-in-out;
+
 
     &:hover {
         filter: grayscale(0);
+        transition: .2s ease-in-out;
     }
 
     
