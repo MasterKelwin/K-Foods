@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Wrapper } from './style';
+import { Title, Wrapper } from './style';
 import Finder from './Finder/Finder';
 import Filters from 'components/Menu/Filters/filters';
 import Cards from './Cards/Cards';
@@ -10,7 +10,7 @@ export default function Menu() {
   return(
       <Wrapper>
         <div>
-          <h1>Cardápio</h1>
+          <Title>Cardápio</Title>
           <Finder search={search} setSearch={setSearch} />
           <Filters filter={filter} setFilter={setFilter}/>
         </div>

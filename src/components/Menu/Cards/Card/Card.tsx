@@ -1,9 +1,10 @@
-import { Wrapper } from './style'
+import { Wrapper, DivImgPizza, DivInfo } from './style'
 
 export default function Card() {
     return (
         <Wrapper>
-            <h1>a</h1>
+            <DivImgPizza></DivImgPizza>
+            <DivInfo></DivInfo>
         </Wrapper>
     )
 }
