@@ -9,7 +9,7 @@ interface Props {
 }
 
 
-export default function Button({ onClick, theme, children }: Props) {
+export default function Button({ onClick, theme, children }: Props) {    
     return(
         <Wrapper onClick={onClick} theme={theme} >{children} </Wrapper>
     )
