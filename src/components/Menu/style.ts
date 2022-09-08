@@ -7,3 +7,10 @@ export const Title = styled.h1 `
     font-weight: bold;
     margin: 1rem 0;
 `;
+
+export const DivMenuSettings = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+`
+

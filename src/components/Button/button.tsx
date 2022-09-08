@@ -4,12 +4,12 @@ import { Wrapper } from 'components/Button/style';
 
 interface Props {
     onClick?: () => void | undefined,
-    theme: boolean,
+    theme?: boolean,
     children: React.ReactNode
 }
 
 
-export default function Button({ onClick, theme, children }: Props) {
+export default function Button({ onClick, theme, children }: Props) {    
     return(
         <Wrapper onClick={onClick} theme={theme} >{children} </Wrapper>
     )
