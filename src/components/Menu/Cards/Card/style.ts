@@ -50,7 +50,6 @@ export const Wrapper = styled.div`
                 border: solid 2px #ebebeb;
                 color: #ebebeb;
                 cursor: pointer;
-                text-transform: uppercase;
             }
         }
     }

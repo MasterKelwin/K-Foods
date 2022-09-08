@@ -23,7 +23,7 @@ export default function Filters({ filter, setFilter }: Props) {
             {filters.map(option => {
                 if(option.id !== filter) {
                 return <li key={option.id} >
-                    <Button onClick={() => selectOption(option)} theme={false}>
+                    <Button onClick={() => selectOption(option)}>
                         {option.label}
                     </Button>
                 </li>
