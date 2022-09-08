@@ -1,4 +1,4 @@
-import { Wrapper } from './style';
+import { Wrapper, ComputersList, EachComputer } from './style';
 import Computers from './Computers.json';
 
 
@@ -6,11 +6,13 @@ export default function Computer() {
     return (
         <Wrapper>
             <span>Ordenar por:</span>
-            {Computers.map(computer => (
-                <div key={computer.value}>
-                {computer.name}
-                </div>
-            ))}
+            <ComputersList>
+                {Computers.map(computer => (
+                    <EachComputer key={computer.value}>
+                    {computer.name}
+                    </EachComputer>
+                ))}
+            </ComputersList>
         </Wrapper>
     )
 }

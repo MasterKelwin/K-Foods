@@ -4,7 +4,7 @@ import { Wrapper } from 'components/Button/style';
 
 interface Props {
     onClick?: () => void | undefined,
-    theme: boolean,
+    theme?: boolean,
     children: React.ReactNode
 }
 
