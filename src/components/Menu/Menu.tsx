@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Title, Wrapper } from './style';
+import { Title, Wrapper, DivMenuSettings } from './style';
 import Finder from './Finder/Finder';
-
 import Filters from 'components/Menu/Filters/filters';
+import Computer from './Computer/Computer';
 import Cards from './Cards/Cards';
 
 export default function Menu() {
@@ -13,7 +13,10 @@ export default function Menu() {
         <div>
           <Title>Cardápio</Title>
           <Finder search={search} setSearch={setSearch} />
-          <Filters filter={filter} setFilter={setFilter}/>
+          <DivMenuSettings>
+            <Filters filter={filter} setFilter={setFilter}/>
+            <Computer />
+          </DivMenuSettings>
         </div>
         <div>
           <Cards />

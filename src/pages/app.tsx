@@ -23,5 +23,5 @@ export default function App() {
 
 
 
-//estado de busca
-//busca componente
+//computer component
+//state of computer
