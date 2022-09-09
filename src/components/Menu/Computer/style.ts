@@ -2,18 +2,27 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.button`
     border: none;
-    background-color: #ebebeb;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     display: flex;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 20px;
     position: relative;
-    background-color: ${props => props.theme === true ? "#490707" : "#EBEBEB"};
-    color: ${props => props.theme === true ? "#490707" : "EBEBEB"};
+    min-width: 92px;
+    background-color: ${props => props.theme === true ? "#490707" : "#4E4E4E"};
+    color: #EBEBEB;
+    height: 30px;
+
 
     &:hover {
         cursor: pointer;
+    }
+
+    @media (max-width: 500px) {
+        padding: 0 2px;
+        margin-top: .5rem;
+
+
     }
 `
 
@@ -46,5 +55,3 @@ export const EachComputer = styled.div`
         background-color: #490707;
     }
 `
-
-
