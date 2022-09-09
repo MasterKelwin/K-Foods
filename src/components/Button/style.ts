@@ -9,7 +9,7 @@ export const Wrapper = styled.button`
     border: none;
     padding: 0 1rem;
     text-transform: uppercase;
-    margin: 0 1rem 0 0;
+    margin: 0 0rem 0 0;
     transition: .5s;
     &:hover{
         cursor: pointer;
