@@ -7,6 +7,15 @@ export const Wrapper = styled.ul `
     margin-top: 1rem;
 
     li {
-        margin-bottom: 1rem;
+        margin: 0 .2rem 1rem 0;
+
+    }
+
+    @media (max-width: 500px) {
+        margin-top: .5rem;
+
+        li {
+            margin-bottom: .5rem;
+        }
     }
 `
