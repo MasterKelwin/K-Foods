@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.button`
+export const Wrapper = styled.button<{ open: boolean }>`
     border: none;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -9,7 +9,7 @@ export const Wrapper = styled.button`
     padding: 0 20px;
     position: relative;
     min-width: 92px;
-    background-color: ${props => props.theme === true ? "#490707" : "#4E4E4E"};
+    background-color: ${props => props.open === true ? "#490707" : "#4E4E4E"};
     color: #EBEBEB;
     height: 30px;
 
@@ -21,13 +21,11 @@ export const Wrapper = styled.button`
     @media (max-width: 500px) {
         padding: 0 2px;
         margin-top: .5rem;
-
-
     }
 `
 
-export const ComputersList = styled.div`
-    display: ${props => props.theme === true ? "flex" : "none"};
+export const ComputersList = styled.div<{ open: boolean }>`
+    display: ${props => props.open === true ? "flex" : "none"};
     position: absolute;
     left: 0;
     top: 100%;
@@ -39,7 +37,7 @@ export const ComputersList = styled.div`
     }
 `
 
-export const EachComputer = styled.div`
+export const EachComputer = styled.div<{ open: boolean }>`
     display: flex;
     heigth: 40px;
     align-items: center;
@@ -47,8 +45,8 @@ export const EachComputer = styled.div`
     box-sizing: border-box;
     border-top: 2px solid #000;
     width: inherit;
-    color: ${props => props.theme === true ? "#EBEBEB" : "490707"};
-    background-color: ${props => props.theme === true ? "490707" : "EBEBEB"};
+    color: ${props => props.open === true ? "#EBEBEB" : "#490707"};
+    background-color: ${props => props.open === true ? "#4E4E4E" : "#EBEBEB"};
 
     &:hover{
         color: #EBEBEB;
