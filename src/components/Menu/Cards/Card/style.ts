@@ -16,8 +16,7 @@ export const Wrapper = styled.div`
     border-radius: 16px;
     width: 160px;
     height: 160px;
-    background-image: url(${Vegetariana});
-    background-size: cover;
+    background-color: red;
     overflow: hidden;
 
     img {
