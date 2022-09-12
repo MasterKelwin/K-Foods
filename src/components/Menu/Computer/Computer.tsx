@@ -8,7 +8,7 @@ interface Props {
     setSelectedComputer: React.Dispatch<React.SetStateAction<string>>
 }
 
-function Computer({selectedComputer, setSelectedComputer}:Props) {
+function Computer({selectedComputer, setSelectedComputer}: Props) {
     const [open, setOpen] = useState<boolean>(false);
     const computerName = Computers.find(computer => computer.value === selectedComputer)?.name;
     return (
@@ -35,4 +35,5 @@ function Computer({selectedComputer, setSelectedComputer}:Props) {
         </Wrapper>
     );
 }
+ 
 export default Computer;

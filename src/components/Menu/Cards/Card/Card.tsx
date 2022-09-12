@@ -1,9 +1,12 @@
-import { Wrapper, DivImgPizza, DivInfo } from './style'
+import { Wrapper, DivImgPizza, DivInfo } from './style';
+import img from '../../../../assets/flavors/vegetariana.jpg';
 
 export default function Card() {
     return (
         <Wrapper>
-            <DivImgPizza></DivImgPizza>
+            <DivImgPizza>
+                <img src={img} alt="" />
+            </DivImgPizza>
             <DivInfo>
                 <div>
                     <h1>Super Vegetariana</h1>
