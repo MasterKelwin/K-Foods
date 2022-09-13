@@ -1,0 +1,20 @@
+import styled from 'styled-components';
+
+export const Wrapper = styled.footer`
+    height: 5rem;
+    background-color: #D3D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        margin: 0 0 .5em 0;
+        font-weight: bold;
+    }
+
+    a {
+        margin: 0 1em;
+    }
+
+`
