@@ -22,7 +22,12 @@ export default function Menu() {
           </DivMenuSettings>
         </div>
         <div>
-          <Cards search={search} filter={filter}/>
+          <Cards
+          search={search}
+          filter={filter}
+          setFilter={setFilter}
+          selectedComputer={selectedComputer}
+          />
         </div>
       </Wrapper>
   )

@@ -1,7 +1,21 @@
 import { Wrapper, DivImgPizza, DivInfo } from './style';
-import Flavors from '../Cards.json';
 
-type Props = typeof Flavors[0];
+//type Props = typeof Flavors[0];
+
+interface Props {
+    title: string,
+    description: string,
+    img: string,
+    pasta: string,
+    serving: number,
+    price: number,
+    id: number,
+    category: {
+        id: number,
+        label: string
+    },
+    setFilter: React.Dispatch<React.SetStateAction<number | null>>
+}
 
 export default function Card(props: Props) {
     return (
@@ -15,7 +29,9 @@ export default function Card(props: Props) {
                     <p>{props.description}</p>
                 </div>
                 <ul>
-                    <li>{props.category.label}</li>
+                    <li 
+                    onClick={() => props.setFilter(props.category.id)}                    
+                    >{props.category.label}</li>
                     <li>Massa {props.pasta}</li>
                     <li>Serve {props.serving} pessoa{props.serving === 1 ? '' : 's'}</li>
                     <li>R$ {props.price},00</li>
