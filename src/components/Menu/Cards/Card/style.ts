@@ -16,7 +16,6 @@ export const Wrapper = styled.div`
     border-radius: 16px;
     width: 160px;
     height: 160px;
-    background-color: red;
     overflow: hidden;
 
     img {
