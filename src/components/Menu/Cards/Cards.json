@@ -2,7 +2,7 @@
     {
       "title": "Super Vegetariana",
       "description": "Molho de tomate, pimentão, tomate seco, cebola, cogumelo champgnon, pimentão verde, agrião e queijo.",
-      "img": "/assets/flavors/vegetariana.jpg",
+      "img": "./assets/flavors/vegetariana.jpg",
       "pasta": "fina",
       "serving": 2,
       "price": 50.0,
@@ -15,7 +15,7 @@
     {
         "title": "Portuguesa",
         "description": "Molho de tomate, pimentão verde, tomate em rodelas, cebola picada, cogumelo champgnon, ovo cozido, azeitona e queijo.",
-        "img": "/assets/flavors/portuguesa.jpg",
+        "img": "./assets/flavors/portuguesa.jpg",
         "pasta": "fina",
         "serving": 2,
         "price": 45.0,
@@ -28,7 +28,7 @@
       {
         "title": "Frango com Catupiry",
         "description": "Molho de tomate, frango, catupiry, azeitona e requeijão.",
-        "img": "/assets/flavors/frangocomcatupiry.jpg",
+        "img": "./assets/flavors/frangocomcatupiry.jpg",
         "pasta": "grossa",
         "serving": 4,
         "price": 65.0,
@@ -41,7 +41,7 @@
       {
         "title": "Brigadeiro",
         "description": "Chocolate derretido, granulado e disquete.",
-        "img": "/assets/flavors/brigadeiro.jpg",
+        "img": "./assets/flavors/brigadeiro.jpg",
         "pasta": "fina",
         "serving": 2,
         "price": 40.0,
@@ -54,7 +54,7 @@
       {
         "title": "Mata fome",
         "description": "Pizza pequena com ingredientes aleatórios para surpreender sua fome.",
-        "img": "/assets/flavors/matafome.jpg",
+        "img": "./assets/flavors/matafome.jpg",
         "pasta": "fina",
         "serving": 1,
         "price": 20.0,
@@ -67,7 +67,7 @@
       {
         "title": "Toscana",
         "description": "Molho de tomate, peperoni, azeitona, orégano e queijo.",
-        "img": "/assets/flavors/toscana.jpg",
+        "img": "./assets/flavors/toscana.jpg",
         "pasta": "fina",
         "serving": 2,
         "price": 50.0,
@@ -80,7 +80,7 @@
       {
         "title": "X-Tudo",
         "description": "Molho de tomate, frango, palmito, queijo, requeijão, tomate em rodelas, agrião, cheddar nas bordas e pimentão amarelo.",
-        "img": "/assets/flavors/xtudo.jpg",
+        "img": "./assets/flavors/xtudo.jpg",
         "pasta": "grossa",
         "serving": 4,
         "price": 75.0,
@@ -93,7 +93,7 @@
       {
         "title": "Floresta Negra",
         "description": "Chocolate derretido amargo, morango picado, banana picada, granulado amargo e Nutela nas bordas",
-        "img": "/assets/flavors/florestanegra.jpg",
+        "img": "./assets/flavors/florestanegra.jpg",
         "pasta": "fina",
         "serving": 2,
         "price": 60.0,
