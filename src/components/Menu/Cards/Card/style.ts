@@ -15,6 +15,11 @@ export const Wrapper = styled.div`
         margin-bottom: 6em;
     }
 
+    @media (max-width: 500px) {
+        height: auto;
+    }
+        
+
 `
 
     export const DivImgPizza = styled.div`
@@ -28,6 +33,11 @@ export const Wrapper = styled.div`
         border-radius: 16px;
     }
 
+    @media (max-width: 500px) {
+        height: 200px;
+    }
+
+    
 `
 
 
@@ -74,6 +84,7 @@ export const Wrapper = styled.div`
 
         width: 80%;
         margin: 9px 6px 0px 6px;
+        height: auto;
         
         h1 {
             font-size: 1rem;
