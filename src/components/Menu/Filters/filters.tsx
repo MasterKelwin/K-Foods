@@ -5,8 +5,8 @@ import Button from '../../Button/button';
 type IOption = typeof filters[0];
 
 interface Props {
-    filter: string | null,
-    setFilter: React.Dispatch<React.SetStateAction<string | null>>
+    filter: number | null,
+    setFilter: React.Dispatch<React.SetStateAction<number | null>>
 }
 
 export default function Filters({ filter, setFilter }: Props) {
@@ -15,7 +15,7 @@ export default function Filters({ filter, setFilter }: Props) {
     }
 
     function cleanOption() {
-        setFilter('');
+        setFilter(null);
     }
     
     return (

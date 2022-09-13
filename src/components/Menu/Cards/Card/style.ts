@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Vegetariana from 'assets/flavors/vegetariana.jpg'
 
 export const Wrapper = styled.div`
     border-radius: 16px;

@@ -1,18 +1,18 @@
 [
     {
       "label": "Da Casa",
-      "id": "dacasa"
+      "id": 1
     },
     {
-      "label": "Combos",
-      "id": "combos"
+      "label": "Carnes",
+      "id": 2
     },
     {
       "label": "Doces",
-      "id": "doces"
+      "id": 3
     },
     {
       "label": "Vegetarianas",
-      "id": "vegetarianas"
+      "id": 4
     }
 ]
