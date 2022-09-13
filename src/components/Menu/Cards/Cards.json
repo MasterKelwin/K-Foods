@@ -1,0 +1,108 @@
+[
+    {
+      "title": "Super Vegetariana",
+      "description": "Molho de tomate, pimentão, tomate seco, cebola, cogumelo champgnon, pimentão verde, agrião e queijo.",
+      "img": "/assets/flavors/vegetariana.jpg",
+      "pasta": "fina",
+      "serving": 2,
+      "price": 50.0,
+      "id": 1,
+      "category": {
+        "id": "vegetarianas",
+        "label": "Vegetarianas"
+      }
+    },
+    {
+        "title": "Portuguesa",
+        "description": "Molho de tomate, pimentão verde, tomate em rodelas, cebola picada, cogumelo champgnon, ovo cozido, azeitona e queijo.",
+        "img": "/assets/flavors/portuguesa.jpg",
+        "pasta": "fina",
+        "serving": 2,
+        "price": 45.0,
+        "id": 2,
+        "category": {
+          "id": "vegetarianas",
+          "label": "Vegetarianas"
+        }
+      },
+      {
+        "title": "Frango com Catupiry",
+        "description": "Molho de tomate, frango, catupiry, azeitona e requeijão.",
+        "img": "/assets/flavors/frangocomcatupiry.jpg",
+        "pasta": "grossa",
+        "serving": 4,
+        "price": 65.0,
+        "id": 3,
+        "category": {
+          "id": "carnes",
+          "label": "Carnes"
+        }
+      },
+      {
+        "title": "Brigadeiro",
+        "description": "Chocolate derretido, granulado e disquete.",
+        "img": "/assets/flavors/brigadeiro.jpg",
+        "pasta": "fina",
+        "serving": 2,
+        "price": 40.0,
+        "id": 4,
+        "category": {
+          "id": "doces",
+          "label": "Doces"
+        }
+      },
+      {
+        "title": "Mata fome",
+        "description": "Pizza pequena com ingredientes aleatórios para surpreender sua fome.",
+        "img": "/assets/flavors/matafome.jpg",
+        "pasta": "fina",
+        "serving": 1,
+        "price": 20.0,
+        "id": 5,
+        "category": {
+          "id": "dacasa",
+          "label": "Da Casa"
+        }
+      },
+      {
+        "title": "Toscana",
+        "description": "Molho de tomate, peperoni, azeitona, orégano e queijo.",
+        "img": "/assets/flavors/toscana.jpg",
+        "pasta": "fina",
+        "serving": 2,
+        "price": 50.0,
+        "id": 6,
+        "category": {
+          "id": "carnes",
+          "label": "Carnes"
+        }
+      },
+      {
+        "title": "X-Tudo",
+        "description": "Molho de tomate, frango, palmito, queijo, requeijão, tomate em rodelas, agrião, cheddar nas bordas e pimentão amarelo.",
+        "img": "/assets/flavors/xtudo.jpg",
+        "pasta": "grossa",
+        "serving": 4,
+        "price": 75.0,
+        "id": 7,
+        "category": {
+          "id": "dacasa",
+          "label": "Da Casa"
+        }
+      },
+      {
+        "title": "Floresta Negra",
+        "description": "Chocolate derretido amargo, morango picado, banana picada, granulado amargo e Nutela nas bordas",
+        "img": "/assets/flavors/florestanegra.jpg",
+        "pasta": "fina",
+        "serving": 2,
+        "price": 60.0,
+        "id": 8,
+        "category": {
+          "id": "doces",
+          "label": "Doces"
+        }
+      }
+
+
+]

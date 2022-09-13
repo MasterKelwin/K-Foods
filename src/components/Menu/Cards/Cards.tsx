@@ -1,10 +1,15 @@
-import { Wrapper } from './style'
-import Card from './Card/Card'
+import { Wrapper } from './style';
+import Card from './Card/Card';
+import Flavors from './Cards.json';
 
 export default function Cards() {
     return (
         <Wrapper>
-            <Card />
+            {Flavors.map(flavor => (
+                <Card  key={flavor.id}
+                {...flavor}
+                />
+            ))}
         </Wrapper>
     )
 }

@@ -1,22 +1,24 @@
 import { Wrapper, DivImgPizza, DivInfo } from './style';
-import img from '../../../../assets/flavors/vegetariana.jpg';
+import Flavors from '../Cards.json';
 
-export default function Card() {
+type Props = typeof Flavors[0];
+
+export default function Card(props: Props) {
     return (
         <Wrapper>
             <DivImgPizza>
-                <img src={img} alt="" />
+                <img src={props.img} alt={props.title} />
             </DivImgPizza>
             <DivInfo>
                 <div>
-                    <h1>Super Vegetariana</h1>
-                    <p>Massa fina, molho de tomate, pimentão, tomate seco, cebola, cogumelo champgnon, pimentão verde, agrião e queijo.</p>
+                    <h1>{props.title}</h1>
+                    <p>{props.description}</p>
                 </div>
                 <ul>
-                    <li>Vegetarianas</li>
-                    <li>500g</li>
-                    <li>Serve 2 pessoas</li>
-                    <li>R$ 50,00</li>
+                    <li>{props.category.label}</li>
+                    <li>Massa {props.pasta}</li>
+                    <li>Serve {props.serving} pessoa{props.serving === 1 ? '' : 's'}</li>
+                    <li>R$ {props.price},00</li>
                 </ul>
             </DivInfo>
         </Wrapper>
