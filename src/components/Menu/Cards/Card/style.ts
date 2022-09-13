@@ -10,6 +10,11 @@ export const Wrapper = styled.div`
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     margin: 0 0 1rem 0;
     transition: .5s ease-in-out;
+
+    &:last-child {
+        margin-bottom: 6em;
+    }
+
 `
 
     export const DivImgPizza = styled.div`
@@ -22,6 +27,7 @@ export const Wrapper = styled.div`
         height: 100%;
         border-radius: 16px;
     }
+
 `
 
 
@@ -44,7 +50,7 @@ export const Wrapper = styled.div`
             background-color: #490707;
             border: solid 2px #ebebeb;
             color: #ebebeb;
-    }
+        }
 
         li {
             margin-right: 1rem;
@@ -66,7 +72,7 @@ export const Wrapper = styled.div`
 
     @media (max-width: 500px) {
 
-        max-width: 60%;
+        width: 80%;
         margin: 9px 6px 0px 6px;
         
         h1 {

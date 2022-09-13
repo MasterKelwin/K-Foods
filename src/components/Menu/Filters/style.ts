@@ -13,6 +13,7 @@ export const Wrapper = styled.ul `
 
     @media (max-width: 500px) {
         margin-top: .5rem;
+        flex-direction: column;
 
         li {
             margin-bottom: .5rem;
