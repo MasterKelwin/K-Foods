@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Vegetariana from 'assets/flavors/vegetariana.jpg'
+
 
 export const Wrapper = styled.div`
     border-radius: 16px;
@@ -16,7 +16,6 @@ export const Wrapper = styled.div`
     border-radius: 16px;
     width: 160px;
     height: 160px;
-    background-color: red;
     overflow: hidden;
 
     img {
@@ -41,6 +40,12 @@ export const Wrapper = styled.div`
         margin-top: 1.5rem;
         margin-left: .5rem;
 
+        li:nth-child(1):hover {
+            background-color: #490707;
+            border: solid 2px #ebebeb;
+            color: #ebebeb;
+    }
+
         li {
             margin-right: 1rem;
             background-color: none;
@@ -51,11 +56,11 @@ export const Wrapper = styled.div`
             transition: .5s ease-in-out;
 
             &:hover{
-                background-color: #490707;
-                border: solid 2px #ebebeb;
-                color: #ebebeb;
                 cursor: pointer;
             }
+        
+
+        
         }
     }
 

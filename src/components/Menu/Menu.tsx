@@ -7,7 +7,7 @@ import Cards from './Cards/Cards';
 
 export default function Menu() {
   const [search, setSearch] = useState<string>("");
-  const [filter, setFilter] = useState<string | null>(null);
+  const [filter, setFilter] = useState<number | null>(null);
   const [selectedComputer, setSelectedComputer] = useState<string>("");
   return(
       <Wrapper>
@@ -22,7 +22,12 @@ export default function Menu() {
           </DivMenuSettings>
         </div>
         <div>
-          <Cards />
+          <Cards
+          search={search}
+          filter={filter}
+          setFilter={setFilter}
+          selectedComputer={selectedComputer}
+          />
         </div>
       </Wrapper>
   )
