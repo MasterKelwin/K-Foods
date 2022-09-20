@@ -21,4 +21,4 @@ export const Wrapper = styled.footer`
         margin: 0 1em;
     }
 
-`
+`;

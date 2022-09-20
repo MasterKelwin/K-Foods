@@ -11,7 +11,7 @@ export const Wrapper = styled.button<{ open: boolean }>`
     padding: 0 20px;
     position: relative;
     min-width: 156px;
-    background-color: ${props => props.open === true ? "#490707" : "#4E4E4E"};
+    background-color: ${props => props.open === true ? '#490707' : '#4E4E4E'};
     color: #EBEBEB;
     height: 30px;
 
@@ -28,10 +28,10 @@ export const Wrapper = styled.button<{ open: boolean }>`
         padding: 0 2px;
         margin-top: .5rem;
     }
-`
+`;
 
 export const ComputersList = styled.div<{ open: boolean }>`
-    display: ${props => props.open === true ? "flex" : "none"};
+    display: ${props => props.open === true ? 'flex' : 'none'};
     position: absolute;
     left: 0;
     top: 100%;
@@ -48,7 +48,7 @@ export const ComputersList = styled.div<{ open: boolean }>`
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
-`
+`;
 
 export const EachComputer = styled.div<{ open: boolean }>`
     display: flex;
@@ -58,11 +58,11 @@ export const EachComputer = styled.div<{ open: boolean }>`
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     width: inherit;
-    color: ${props => props.open === true ? "#EBEBEB" : "#490707"};
-    background-color: ${props => props.open === true ? "#4E4E4E" : "#EBEBEB"};
+    color: ${props => props.open === true ? '#EBEBEB' : '#490707'};
+    background-color: ${props => props.open === true ? '#4E4E4E' : '#EBEBEB'};
 
     &:hover{
         color: #EBEBEB;
         background-color: #490707;
     }
-`
+`;

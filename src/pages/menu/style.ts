@@ -38,9 +38,9 @@ export const ImgBanner = styled.div`
             text-shadow: 3px 3px 5px #000000;
         }
     }
-`
+`;
 
 export const Main = styled.main`
     width:80%;
     margin: 0 auto;
-`
+`;

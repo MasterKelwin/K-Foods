@@ -19,4 +19,4 @@ export const Wrapper = styled.ul `
             margin-bottom: .5rem;
         }
     }
-`
+`;

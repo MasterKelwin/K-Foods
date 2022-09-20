@@ -5,4 +5,4 @@ export const Wrapper = styled.ul`
     height: auto;
     display: flex;
     flex-direction: column;
-`
+`;

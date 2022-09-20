@@ -20,9 +20,9 @@ export const Wrapper = styled.div`
     }
         
 
-`
+`;
 
-    export const DivImgPizza = styled.div`
+export const DivImgPizza = styled.div`
     border-radius: 16px;
     width: 160px;
     height: 160px;
@@ -38,10 +38,10 @@ export const Wrapper = styled.div`
     }
 
     
-`
+`;
 
 
-    export const DivInfo = styled.div`
+export const DivInfo = styled.div`
     width: auto;
     margin: 1rem;
 
@@ -111,7 +111,7 @@ export const Wrapper = styled.div`
 
     }
     
-`
+`;
 
 /*@media (max-width: 500px) {
     height: 128px;

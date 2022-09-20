@@ -4,7 +4,7 @@ export const Wrapper = styled.button`
     width: auto;
     height: 1.8rem;
     border-radius: 8px;
-    background-color: ${props => props.theme === true ? "#490707" : "#4E4E4E"}; 
+    background-color: ${props => props.theme === true ? '#490707' : '#4E4E4E'}; 
     color: #ebebeb;
     border: none;
     padding: 0 1rem;
