@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 /private
+/privatea
 .pnp.js
 styleCreation.css
 generate-react-cli.json
